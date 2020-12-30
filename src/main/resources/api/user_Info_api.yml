@@ -1,0 +1,42 @@
+name: UserInfo
+actions:
+  add_user_info:
+    method: post
+    url: http://localhost:8888/v1/info/user
+    contentType: application/json
+    formalParam: ["userId", "userName"]
+    headers:
+      token: ${token}
+    body: '{
+               "userId":${userId},
+               "userName":"${userName}",
+               "email":"xiaohong@qq.com",
+               "phone":"18623456543",
+               "friends":[
+                   {
+                       "userId":11,
+                       "userName":"小红喵",
+                       "email":"xiaohongmiao@qq.com",
+                       "phone":"18623456555"
+                   },
+                   {
+                       "userId":12,
+                       "userName":"小红旺",
+                       "email":"xiaohongwang@qq.com",
+                       "phone":"18623456566"
+                   }
+               ]
+           }'
+  find_all_user_info:
+    method: get
+    url: http://localhost:8888/v1/info/user
+    contentType: application/json
+    headers:
+      token: ${token}
+  find_user_info_by_userId:
+    method: get
+    url: http://localhost:8888/v1/info/user/${id}
+    contentType: application/json
+    formalParam: ["id"]
+    headers:
+      token: ${token}

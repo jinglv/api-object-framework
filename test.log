@@ -1,0 +1,100 @@
+2020-12-30 14:34:58 ERROR PlaceholderUtils:58 - Could not resolve placeholder 'token' in [${token}] 
+2020-12-30 14:40:50 ERROR PlaceholderUtils:58 - Could not resolve placeholder 'token' in [${token}] 
+2020-12-30 14:41:42 ERROR PlaceholderUtils:58 - Could not resolve placeholder 'token' in [${token}] 
+2020-12-30 14:49:16 ERROR PlaceholderUtils:58 - Could not resolve placeholder 'token' in [${token}] 
+2020-12-30 15:08:48 INFO  ApiLoaderTest:24 - debugger!
+2020-12-30 15:11:33 INFO  ApiLoaderTest:24 - debugger!
+2020-12-30 15:15:42 INFO  ApiLoaderTest:24 - debugger!
+2020-12-30 15:18:52 INFO  ApiLoaderTest:24 - debugger!
+2020-12-30 15:21:23 INFO  ApiLoaderTest:24 - debugger!
+2020-12-30 15:21:43 INFO  ApiLoaderTest:24 - debugger!
+2020-12-30 15:23:43 INFO  ApiLoaderTest:24 - debugger!
+2020-12-30 15:47:13 INFO  ApiLoaderTest:24 - debugger!
+2020-12-30 15:48:48 INFO  ApiLoaderTest:24 - debugger!
+2020-12-30 15:49:09 INFO  ApiLoaderTest:24 - debugger!
+2020-12-30 15:53:38 INFO  StepModelTest:24 - debugger!
+2020-12-30 15:53:40 INFO  StepModel:132 - step变量更新：{token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJ1c2VyTmFtZSI6InhpYW9ob25nIiwiZXhwIjoxNjA5OTE5NjE5fQ.bPGd1ETSWCBkapExDIVW8_-DNYP8nQbALfhozE2UVds}
+2020-12-30 15:53:40 INFO  StepModel:140 - step变量更新：{token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJ1c2VyTmFtZSI6InhpYW9ob25nIiwiZXhwIjoxNjA5OTE5NjE5fQ.bPGd1ETSWCBkapExDIVW8_-DNYP8nQbALfhozE2UVds}
+2020-12-30 15:53:40 INFO  StepModelTest:57 - Debugger!
+2020-12-30 15:54:05 INFO  StepModelTest:24 - debugger!
+2020-12-30 15:54:07 INFO  StepModel:132 - step变量更新：{token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJ1c2VyTmFtZSI6InhpYW9ob25nIiwiZXhwIjoxNjA5OTE5NjQ2fQ.3VctjTIaszvtXomX_tcHwxsQLad2tQkJIWix7VWkGZM}
+2020-12-30 15:54:07 INFO  StepModel:140 - step变量更新：{token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJ1c2VyTmFtZSI6InhpYW9ob25nIiwiZXhwIjoxNjA5OTE5NjQ2fQ.3VctjTIaszvtXomX_tcHwxsQLad2tQkJIWix7VWkGZM}
+2020-12-30 15:54:07 INFO  StepModelTest:57 - Debugger!
+2020-12-30 15:57:35 INFO  StepModelTest:24 - debugger!
+2020-12-30 15:57:37 INFO  StepModel:132 - step变量更新：{token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJ1c2VyTmFtZSI6InhpYW9ob25nIiwiZXhwIjoxNjA5OTE5ODU2fQ.t6dz8uRLA7chhDzn-WUuma9qb-GSR4cjS4FbM6CYKjc}
+2020-12-30 15:57:37 INFO  StepModel:140 - step变量更新：{token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJ1c2VyTmFtZSI6InhpYW9ob25nIiwiZXhwIjoxNjA5OTE5ODU2fQ.t6dz8uRLA7chhDzn-WUuma9qb-GSR4cjS4FbM6CYKjc}
+2020-12-30 15:57:37 INFO  StepModelTest:57 - Debugger!
+2020-12-30 16:31:19 INFO  ApiTestCaseModelTest:22 - debugger!
+2020-12-30 16:31:55 INFO  ApiTestCaseModelTest:22 - debugger!
+2020-12-30 16:32:09 INFO  ApiTestCaseModelTest:22 - debugger!
+2020-12-30 16:32:52 INFO  ApiTestCaseModelTest:22 - debugger!
+2020-12-30 16:32:52 INFO  ApiTestCaseModel:107 - 用例变量更新：{getTimeStamp=1609317172370}
+2020-12-30 16:35:27 INFO  ApiTestCaseModelTest:22 - debugger!
+2020-12-30 16:35:27 INFO  ApiTestCaseModel:107 - 用例变量更新：{getTimeStamp=1609317327723}
+2020-12-30 16:35:29 INFO  StepModel:140 - 全局变量更新：{}
+2020-12-30 16:35:29 ERROR PlaceholderUtils:58 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2020-12-30 16:35:29 ERROR PlaceholderUtils:58 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2020-12-30 16:36:30 INFO  ApiTestCaseModelTest:22 - debugger!
+2020-12-30 16:36:30 INFO  ApiTestCaseModel:107 - 用例变量更新：{getTimeStamp=1609317390857}
+2020-12-30 16:36:32 INFO  StepModel:140 - 全局变量更新：{}
+2020-12-30 16:36:32 ERROR PlaceholderUtils:58 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2020-12-30 16:36:32 ERROR PlaceholderUtils:58 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2020-12-30 16:36:32 ERROR PlaceholderUtils:58 - Could not resolve placeholder 'token' in [${token}] 
+2020-12-30 16:48:52 INFO  ApiTestCaseModelTest:22 - debugger!
+2020-12-30 16:48:52 INFO  ApiTestCaseModel:107 - 用例变量更新：{getTimeStamp=1609318132732}
+2020-12-30 16:48:55 INFO  StepModel:140 - 全局变量更新：{}
+2020-12-30 16:48:55 ERROR PlaceholderUtils:58 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2020-12-30 16:48:55 ERROR PlaceholderUtils:58 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2020-12-30 17:14:53 INFO  ApiTestCaseModelTest:22 - debugger!
+2020-12-30 17:14:53 INFO  ApiTestCaseModel:107 - 用例变量更新：{getTimeStamp=1609319693812}
+2020-12-30 17:14:56 INFO  StepModel:140 - 全局变量更新：{}
+2020-12-30 17:14:56 ERROR PlaceholderUtils:58 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2020-12-30 17:14:56 ERROR PlaceholderUtils:58 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2020-12-30 17:21:22 INFO  ApiTestCaseModelTest:22 - debugger!
+2020-12-30 17:22:05 INFO  ApiTestCaseModelTest:22 - debugger!
+2020-12-30 17:22:05 INFO  ApiTestCaseModel:107 - 用例变量更新：{getRandomInt=35}
+2020-12-30 17:22:07 INFO  StepModel:140 - 全局变量更新：{}
+2020-12-30 17:22:07 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'getRandomInt' in [${getRandomInt}]: java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+2020-12-30 17:22:07 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'getRandomInt' in [xiaohong${getRandomInt}]: java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+2020-12-30 17:22:07 ERROR PlaceholderUtils:58 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2020-12-30 17:22:07 ERROR PlaceholderUtils:58 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2020-12-30 17:25:07 ERROR PlaceholderUtils:58 - Could not resolve placeholder 'getRandomInt' in [${getRandomInt}] 
+2020-12-30 17:49:24 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2020-12-30 17:49:24 INFO  ApiParameterizedTest:32 - 用例名称： userLogin
+2020-12-30 17:49:24 INFO  ApiParameterizedTest:33 - 用例描述： user login test case
+2020-12-30 17:49:24 INFO  ApiTestCaseModel:107 - 用例变量更新：{getRandomInt=1609321764607}
+2020-12-30 17:49:26 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2020-12-30 17:49:26 INFO  ApiParameterizedTest:32 - 用例名称： CreateUserInfo
+2020-12-30 17:49:26 INFO  ApiParameterizedTest:33 - 用例描述： 测试创建用户信息用例
+2020-12-30 17:49:26 INFO  ApiTestCaseModel:107 - 用例变量更新：{getRandomInt=1609321766727}
+2020-12-30 17:49:26 INFO  StepModel:140 - 全局变量更新：{}
+2020-12-30 17:49:26 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2020-12-30 17:49:26 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2020-12-30 17:51:49 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2020-12-30 17:51:49 INFO  ApiParameterizedTest:32 - 用例名称： UserLogin
+2020-12-30 17:51:49 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户登录并获取token
+2020-12-30 17:51:49 INFO  ApiTestCaseModel:107 - 用例变量更新：{getRandomInt=1609321909371}
+2020-12-30 17:51:51 INFO  StepModel:140 - 全局变量更新：{}
+2020-12-30 17:51:51 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2020-12-30 17:51:51 INFO  ApiParameterizedTest:32 - 用例名称： CreateUserInfo
+2020-12-30 17:51:51 INFO  ApiParameterizedTest:33 - 用例描述： 测试创建用户信息用例
+2020-12-30 17:51:51 INFO  ApiTestCaseModel:107 - 用例变量更新：{getRandomInt=1609321911527}
+2020-12-30 17:51:51 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2020-12-30 17:51:51 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2020-12-30 17:51:51 INFO  StepModel:140 - 全局变量更新：{}
+2020-12-30 17:51:51 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2020-12-30 17:51:51 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2020-12-30 17:52:47 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2020-12-30 17:52:47 INFO  ApiParameterizedTest:32 - 用例名称： UserLogin
+2020-12-30 17:52:47 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户登录并获取token
+2020-12-30 17:52:47 INFO  ApiTestCaseModel:107 - 用例变量更新：{getRandomInt=1609321967514}
+2020-12-30 17:52:49 INFO  StepModel:140 - 全局变量更新：{}
+2020-12-30 17:52:49 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2020-12-30 17:52:49 INFO  ApiParameterizedTest:32 - 用例名称： CreateUserInfo
+2020-12-30 17:52:49 INFO  ApiParameterizedTest:33 - 用例描述： 测试创建用户信息用例
+2020-12-30 17:52:49 INFO  ApiTestCaseModel:107 - 用例变量更新：{getRandomInt=1609321969687}
+2020-12-30 17:52:49 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2020-12-30 17:52:49 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2020-12-30 17:52:49 INFO  StepModel:140 - 全局变量更新：{}
+2020-12-30 17:52:49 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2020-12-30 17:52:49 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 

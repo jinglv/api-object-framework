@@ -1,0 +1,17 @@
+name: UserLogin
+description: 测试用户登录并获取token
+steps:
+  - api: UserLogin
+    action: get_token
+    actualParameter: ["xiaohong","123123"]
+    saveGlobal:
+      token: data.token
+    asserts:
+      - actual: code
+        matcher: equalTo
+        expect: '00000'
+        reason: 'token获取成功'
+      - actual: message
+        matcher: equalTo
+        expect: '成功'
+        reason: 'token获取成功'
