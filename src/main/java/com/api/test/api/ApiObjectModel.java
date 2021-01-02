@@ -2,6 +2,8 @@ package com.api.test.api;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,6 +17,8 @@ import java.util.Map;
  * @date 2020/12/30
  */
 public class ApiObjectModel {
+    public static final Logger logger = LoggerFactory.getLogger(ApiObjectModel.class);
+
     /**
      * 接口的名称
      */
@@ -53,13 +57,14 @@ public class ApiObjectModel {
     }
 
     /**
-     * 加载apiobject yaml文件（目录：resources/api/**_api.yaml）
+     * 加载api object yaml文件（目录：resources/api/**_api.yaml）
      *
      * @param path 路径
      * @return 返回yaml文件内容
      * @throws IOException io异常
      */
     public static ApiObjectModel load(String path) throws IOException {
+        logger.info("api object加载路径：" + path);
         ObjectMapper objectMapper = new ObjectMapper(new YAMLFactory());
         return objectMapper.readValue(new File(path), ApiObjectModel.class);
     }

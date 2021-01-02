@@ -26,6 +26,17 @@ public class FakerUtils {
     }
 
     /**
+     * 随机获取指定长度的数字
+     *
+     * @param length 指定长度
+     * @return 返回随机数
+     */
+    public static String getRandomStringNum(int length) {
+        length = length - 1;
+        return String.valueOf((int) ((Math.random() * 9 + 1) * Math.pow(10, (double) length)));
+    }
+
+    /**
      * 随机获取指定范围的数字
      *
      * @param min 获取的随机数左边界

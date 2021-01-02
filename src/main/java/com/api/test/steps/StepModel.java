@@ -118,9 +118,11 @@ public class StepModel {
     }
 
     public StepResult run(Map<String, String> testCaseVariables) {
+        logger.info("测试用例变量列表：" + testCaseVariables);
         // 需要定义AssertModel类
         if (actualParameter != null) {
             finalActualParameter.addAll(PlaceholderUtils.resolveList(actualParameter, testCaseVariables));
+            logger.info("测试用例替换变量列表：" + finalActualParameter);
         }
         // 根据case中配置的API对象和action信息，取出并执行相应的action
         Response response = Objects.requireNonNull(ApiLoader.getAction(api, action)).run(finalActualParameter);

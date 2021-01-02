@@ -4,6 +4,8 @@ import com.api.test.global.GlobalVariables;
 import com.api.test.utils.PlaceholderUtils;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -18,6 +20,8 @@ import static io.restassured.RestAssured.given;
  * @date 2020/12/30
  */
 public class ApiActionModel {
+    public static final Logger logger = LoggerFactory.getLogger(ApiActionModel.class);
+
     /**
      * 接口请求方式
      */
@@ -134,6 +138,7 @@ public class ApiActionModel {
      * @return response
      */
     public Response run(ArrayList<String> actualParameter) {
+        logger.info("测试用例执行传入的实参列表：" + actualParameter);
         Map<String, String> finalQuery = new HashMap<>(16);
         String runBody = this.body;
         String runUrl = this.url;

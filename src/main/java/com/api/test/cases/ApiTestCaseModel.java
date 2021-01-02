@@ -94,16 +94,17 @@ public class ApiTestCaseModel {
      * @throws IOException io异常
      */
     public static ApiTestCaseModel load(String path) throws IOException {
+        logger.info("test case加载测试用例路径：" + path);
         ObjectMapper objectMapper = new ObjectMapper(new YAMLFactory());
         return objectMapper.readValue(new File(path), ApiTestCaseModel.class);
     }
 
     /**
-     * 测试用例zhixing
+     * 测试用例执行
      */
     public void run() {
         // 加载用例层关键字变量
-        this.testCaseVariables.put("getRandomInt", FakerUtils.getTimeStamp());
+        this.testCaseVariables.put("getRandomInt", FakerUtils.getRandomStringNum(10));
         logger.info("用例变量更新：" + testCaseVariables);
         // 遍历steps进行执行
         steps.forEach(step -> {

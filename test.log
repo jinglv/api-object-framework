@@ -98,3 +98,66 @@
 2020-12-30 17:52:49 INFO  StepModel:140 - 全局变量更新：{}
 2020-12-30 17:52:49 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
 2020-12-30 17:52:49 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-02 13:31:09 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-02 13:31:09 INFO  ApiParameterizedTest:32 - 用例名称： UserLogin
+2021-01-02 13:31:09 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户登录并获取token
+2021-01-02 13:31:09 INFO  ApiTestCaseModel:107 - 用例变量更新：{getRandomInt=1609565469180}
+2021-01-02 13:31:11 INFO  StepModel:140 - 全局变量更新：{}
+2021-01-02 13:31:11 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-02 13:31:11 INFO  ApiParameterizedTest:32 - 用例名称： CreateUserInfo
+2021-01-02 13:31:11 INFO  ApiParameterizedTest:33 - 用例描述： 测试创建用户信息用例
+2021-01-02 13:31:11 INFO  ApiTestCaseModel:107 - 用例变量更新：{getRandomInt=1609565471106}
+2021-01-02 13:31:11 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2021-01-02 13:31:11 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2021-01-02 13:31:11 INFO  StepModel:140 - 全局变量更新：{}
+2021-01-02 13:31:11 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-02 13:31:11 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-02 13:37:21 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-02 13:37:21 INFO  ApiParameterizedTest:32 - 用例名称： UserLogin
+2021-01-02 13:37:21 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户登录并获取token
+2021-01-02 13:37:21 INFO  ApiTestCaseModel:107 - 用例变量更新：{getRandomInt=2}
+2021-01-02 13:37:23 INFO  StepModel:140 - 全局变量更新：{}
+2021-01-02 13:37:23 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-02 13:37:23 INFO  ApiParameterizedTest:32 - 用例名称： CreateUserInfo
+2021-01-02 13:37:23 INFO  ApiParameterizedTest:33 - 用例描述： 测试创建用户信息用例
+2021-01-02 13:37:23 INFO  ApiTestCaseModel:107 - 用例变量更新：{getRandomInt=1}
+2021-01-02 13:37:23 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2021-01-02 13:37:23 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2021-01-02 13:37:23 INFO  StepModel:140 - 全局变量更新：{}
+2021-01-02 13:37:23 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-02 13:37:23 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-02 13:38:36 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-02 13:38:36 INFO  ApiParameterizedTest:32 - 用例名称： UserLogin
+2021-01-02 13:38:36 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户登录并获取token
+2021-01-02 13:38:36 INFO  ApiTestCaseModel:107 - 用例变量更新：{getRandomInt=2}
+2021-01-02 13:38:38 INFO  StepModel:140 - 全局变量更新：{}
+2021-01-02 13:38:38 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-02 13:38:38 INFO  ApiParameterizedTest:32 - 用例名称： CreateUserInfo
+2021-01-02 13:38:38 INFO  ApiParameterizedTest:33 - 用例描述： 测试创建用户信息用例
+2021-01-02 13:38:38 INFO  ApiTestCaseModel:107 - 用例变量更新：{getRandomInt=2}
+2021-01-02 13:38:38 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2021-01-02 13:38:38 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2021-01-02 13:38:38 INFO  StepModel:140 - 全局变量更新：{}
+2021-01-02 13:38:38 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-02 13:38:38 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-02 13:53:53 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_Info_api.yml
+2021-01-02 13:53:53 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_login_api.yml
+2021-01-02 13:53:53 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_login_case.yaml
+2021-01-02 13:53:53 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/create_user_info_case.yml
+2021-01-02 13:53:54 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-02 13:53:54 INFO  ApiParameterizedTest:32 - 用例名称： UserLogin
+2021-01-02 13:53:54 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户登录并获取token
+2021-01-02 13:53:54 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=2147483647}
+2021-01-02 13:53:54 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-02 13:53:55 INFO  StepModel:140 - 全局变量更新：{}
+2021-01-02 13:53:55 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-02 13:53:55 INFO  ApiParameterizedTest:32 - 用例名称： CreateUserInfo
+2021-01-02 13:53:55 INFO  ApiParameterizedTest:33 - 用例描述： 测试创建用户信息用例
+2021-01-02 13:53:55 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=2115009971}
+2021-01-02 13:53:55 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-02 13:53:55 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2021-01-02 13:53:55 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2021-01-02 13:53:55 INFO  StepModel:140 - 全局变量更新：{}
+2021-01-02 13:53:55 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[2115009971, xiaohong2115009971]
+2021-01-02 13:53:55 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-02 13:53:55 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 

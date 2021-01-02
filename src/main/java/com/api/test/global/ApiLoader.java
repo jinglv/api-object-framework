@@ -48,13 +48,10 @@ public class ApiLoader {
      * @return ApiActionModel
      */
     public static ApiActionModel getAction(String apiName, String actionName) {
-        final ApiActionModel[] apiActionModel = {new ApiActionModel()};
-        APIS.stream().filter(api -> api.getName().equals(apiName)).forEach(api -> apiActionModel[0] = api.getActions().get(actionName));
-        if (apiActionModel[0] != null) {
-            return apiActionModel[0];
-        } else {
-            logger.error("没有找到接口对象： " + apiName + "中的action: " + actionName);
-        }
-        return null;
+        return APIS.stream()
+                .filter(api -> api.getName().equals(apiName))
+                .map(api -> api.getActions().get(actionName))
+                .findAny()
+                .orElseThrow(() -> new RuntimeException("没有找到接口对象： " + apiName + "中的action: " + actionName));
     }
 }
