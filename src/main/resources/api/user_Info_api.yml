@@ -40,3 +40,23 @@ actions:
     formalParam: ["id"]
     headers:
       token: ${token}
+  update_user_info_by_userId:
+    method: put
+    url: http://localhost:8888/v1/info/user/${id}
+    contentType: application/json
+    formalParam: ["id"]
+    headers:
+      token: ${token}
+    body: '{
+               "userId":${id},
+               "userName":"小红红",
+               "email":"xiaohong红@qq.com",
+               "phone":"18623456543"
+           }'
+  delete_user_info_by_userId:
+    method: delete
+    url: http://localhost:8888/v1/info/user/${id}
+    contentType: application/json
+    formalParam: ["id"]
+    headers:
+      token: ${token}

@@ -81,7 +81,7 @@ public class FakerUtils {
         return cardNo.toString();
     }
 
-    private static final String[] telFirst = "134,135,136,137,138,139,150,151,152,157,158,159,130,131,132,155,156,133,188,185,181".split(",");
+    private static final String[] TEL_FIRST = "134,135,136,137,138,139,150,151,152,157,158,159,130,131,132,155,156,133,188,185,181".split(",");
 
     /**
      * 电话号码生成器
@@ -89,8 +89,8 @@ public class FakerUtils {
      * @return 电话号码
      */
     public static String getTel() {
-        int index = getNum(0, telFirst.length - 1);
-        String first = telFirst[index];
+        int index = getNum(0, TEL_FIRST.length - 1);
+        String first = TEL_FIRST[index];
         String second = String.valueOf(getNum(1, 888) + 10000).substring(1);
         String thrid = String.valueOf(getNum(1, 9100) + 10000).substring(1);
         return first + second + thrid;

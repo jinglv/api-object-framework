@@ -32,7 +32,7 @@ class ApiTestCaseModelTest {
 
     @Test
     void run() throws IOException {
-        ApiTestCaseModel testCaseModel = ApiTestCaseModel.load("src/main/resources/case/create_user_info_case.yml");
+        ApiTestCaseModel testCaseModel = ApiTestCaseModel.load("src/main/resources/case/user_info_case.yml");
         testCaseModel.run();
     }
 }

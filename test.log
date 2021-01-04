@@ -161,3 +161,414 @@
 2021-01-02 13:53:55 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[2115009971, xiaohong2115009971]
 2021-01-02 13:53:55 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
 2021-01-02 13:53:55 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:33:55 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_Info_api.yml
+2021-01-04 10:33:56 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_login_api.yml
+2021-01-04 10:33:56 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_login_case.yaml
+2021-01-04 10:33:56 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/create_user_info_case.yml
+2021-01-04 10:33:56 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_info_case.yml
+2021-01-04 10:33:56 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:33:56 INFO  ApiParameterizedTest:32 - 用例名称： UserLogin
+2021-01-04 10:33:56 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户登录并获取token
+2021-01-04 10:33:56 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=2147483647}
+2021-01-04 10:33:56 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=2147483647}
+2021-01-04 10:33:56 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:33:56 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:33:58 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:33:58 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:33:58 INFO  ApiParameterizedTest:32 - 用例名称： CreateUserInfo
+2021-01-04 10:33:58 INFO  ApiParameterizedTest:33 - 用例描述： 测试创建用户信息用例
+2021-01-04 10:33:58 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=2147483647}
+2021-01-04 10:33:58 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=2147483647}
+2021-01-04 10:33:58 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:33:58 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:33:58 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:33:58 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:33:58 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:33:58 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=2147483647}
+2021-01-04 10:33:58 INFO  StepModel:125 - 测试用例替换变量列表：[2147483647, xiaohong2147483647]
+2021-01-04 10:33:58 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[2147483647, xiaohong2147483647]
+2021-01-04 10:33:58 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:33:58 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:35:08 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_Info_api.yml
+2021-01-04 10:35:09 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_login_api.yml
+2021-01-04 10:35:09 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_login_case.yaml
+2021-01-04 10:35:09 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/create_user_info_case.yml
+2021-01-04 10:35:09 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_info_case.yml
+2021-01-04 10:35:09 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:35:09 INFO  ApiParameterizedTest:32 - 用例名称： UserLogin
+2021-01-04 10:35:09 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户登录并获取token
+2021-01-04 10:35:09 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=2147483647}
+2021-01-04 10:35:09 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=2147483647}
+2021-01-04 10:35:09 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:35:09 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:35:11 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:35:11 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:35:11 INFO  ApiParameterizedTest:32 - 用例名称： CreateUserInfo
+2021-01-04 10:35:11 INFO  ApiParameterizedTest:33 - 用例描述： 测试创建用户信息用例
+2021-01-04 10:35:11 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=2147483647}
+2021-01-04 10:35:11 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=2147483647}
+2021-01-04 10:35:11 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:35:11 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:35:11 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:35:11 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:35:11 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:35:11 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=2147483647}
+2021-01-04 10:35:11 INFO  StepModel:125 - 测试用例替换变量列表：[2147483647, xiaohong2147483647]
+2021-01-04 10:35:11 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[2147483647, xiaohong2147483647]
+2021-01-04 10:35:11 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:35:11 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:35:11 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:35:11 INFO  ApiParameterizedTest:32 - 用例名称： UserInfoCase
+2021-01-04 10:35:11 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户信息流程用例
+2021-01-04 10:35:11 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=1206968623}
+2021-01-04 10:35:11 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=1206968623}
+2021-01-04 10:35:11 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:35:11 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:35:11 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:35:11 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:35:11 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:35:11 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=1206968623}
+2021-01-04 10:35:11 INFO  StepModel:125 - 测试用例替换变量列表：[1206968623, xiaohong1206968623]
+2021-01-04 10:35:11 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[1206968623, xiaohong1206968623]
+2021-01-04 10:35:11 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:35:11 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:35:11 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=1206968623}
+2021-01-04 10:35:11 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[]
+2021-01-04 10:35:11 INFO  StepModel:134 - step变量更新：{userId=2147483647}
+2021-01-04 10:35:11 INFO  ApiTestCaseModel:115 - testCase变量更新：{userId=2147483647, getRandomInt=1206968623}
+2021-01-04 10:35:11 INFO  StepModel:121 - 测试用例变量列表：{userId=2147483647, getRandomInt=1206968623}
+2021-01-04 10:35:11 INFO  StepModel:125 - 测试用例替换变量列表：[2147483647]
+2021-01-04 10:35:11 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[2147483647]
+2021-01-04 10:35:11 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'id' in [http://localhost:8888/v1/info/user/${id}] 
+2021-01-04 10:35:11 INFO  StepModel:121 - 测试用例变量列表：{userId=2147483647, getRandomInt=1206968623}
+2021-01-04 10:35:11 INFO  StepModel:125 - 测试用例替换变量列表：[2147483647]
+2021-01-04 10:35:11 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[2147483647]
+2021-01-04 10:35:11 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'id' in [http://localhost:8888/v1/info/user/${id}] 
+2021-01-04 10:39:24 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_Info_api.yml
+2021-01-04 10:39:24 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_login_api.yml
+2021-01-04 10:39:24 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_login_case.yaml
+2021-01-04 10:39:24 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/create_user_info_case.yml
+2021-01-04 10:39:24 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_info_case.yml
+2021-01-04 10:39:24 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:39:24 INFO  ApiParameterizedTest:32 - 用例名称： UserLogin
+2021-01-04 10:39:24 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户登录并获取token
+2021-01-04 10:39:24 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=2147483647}
+2021-01-04 10:39:24 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=2147483647}
+2021-01-04 10:39:24 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:39:24 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:39:26 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:39:26 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:39:26 INFO  ApiParameterizedTest:32 - 用例名称： CreateUserInfo
+2021-01-04 10:39:26 INFO  ApiParameterizedTest:33 - 用例描述： 测试创建用户信息用例
+2021-01-04 10:39:26 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=2147483647}
+2021-01-04 10:39:26 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=2147483647}
+2021-01-04 10:39:26 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:39:26 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:39:26 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:39:26 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:39:26 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:39:26 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=2147483647}
+2021-01-04 10:39:26 INFO  StepModel:125 - 测试用例替换变量列表：[2147483647, xiaohong2147483647]
+2021-01-04 10:39:26 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[2147483647, xiaohong2147483647]
+2021-01-04 10:39:26 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:39:26 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:39:26 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=2147483647}
+2021-01-04 10:39:26 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [${userId}] 
+2021-01-04 10:39:26 INFO  StepModel:125 - 测试用例替换变量列表：[${userId}]
+2021-01-04 10:39:26 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[${userId}]
+2021-01-04 10:39:26 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'id' in [http://localhost:8888/v1/info/user/${id}] 
+2021-01-04 10:39:26 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:39:26 INFO  ApiParameterizedTest:32 - 用例名称： UserInfoCase
+2021-01-04 10:39:26 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户信息流程用例
+2021-01-04 10:39:26 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=2147483647}
+2021-01-04 10:39:26 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=2147483647}
+2021-01-04 10:39:26 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:39:26 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:39:26 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:39:26 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:39:26 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:39:26 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=2147483647}
+2021-01-04 10:39:26 INFO  StepModel:125 - 测试用例替换变量列表：[2147483647, xiaohong2147483647]
+2021-01-04 10:39:26 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[2147483647, xiaohong2147483647]
+2021-01-04 10:39:26 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:39:26 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:39:26 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=2147483647}
+2021-01-04 10:39:26 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[]
+2021-01-04 10:39:27 INFO  StepModel:134 - step变量更新：{userId=2147483647}
+2021-01-04 10:39:27 INFO  ApiTestCaseModel:115 - testCase变量更新：{userId=2147483647, getRandomInt=2147483647}
+2021-01-04 10:39:27 INFO  StepModel:121 - 测试用例变量列表：{userId=2147483647, getRandomInt=2147483647}
+2021-01-04 10:39:27 INFO  StepModel:125 - 测试用例替换变量列表：[2147483647]
+2021-01-04 10:39:27 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[2147483647]
+2021-01-04 10:39:27 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'id' in [http://localhost:8888/v1/info/user/${id}] 
+2021-01-04 10:39:27 INFO  StepModel:121 - 测试用例变量列表：{userId=2147483647, getRandomInt=2147483647}
+2021-01-04 10:39:27 INFO  StepModel:125 - 测试用例替换变量列表：[2147483647]
+2021-01-04 10:39:27 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[2147483647]
+2021-01-04 10:39:27 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'id' in [http://localhost:8888/v1/info/user/${id}] 
+2021-01-04 10:45:28 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_Info_api.yml
+2021-01-04 10:45:28 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_login_api.yml
+2021-01-04 10:45:28 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_login_case.yaml
+2021-01-04 10:45:28 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/create_user_info_case.yml
+2021-01-04 10:45:28 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_info_case.yml
+2021-01-04 10:45:29 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:45:29 INFO  ApiParameterizedTest:32 - 用例名称： UserLogin
+2021-01-04 10:45:29 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户登录并获取token
+2021-01-04 10:45:29 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=28}
+2021-01-04 10:45:29 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=28}
+2021-01-04 10:45:29 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:45:29 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:45:31 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:45:31 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:45:31 INFO  ApiParameterizedTest:32 - 用例名称： CreateUserInfo
+2021-01-04 10:45:31 INFO  ApiParameterizedTest:33 - 用例描述： 测试创建用户信息用例
+2021-01-04 10:45:31 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=46}
+2021-01-04 10:45:31 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=46}
+2021-01-04 10:45:31 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:45:31 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:45:31 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:45:31 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:45:31 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:45:31 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=46}
+2021-01-04 10:45:31 INFO  StepModel:125 - 测试用例替换变量列表：[46, xiaohong46]
+2021-01-04 10:45:31 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[46, xiaohong46]
+2021-01-04 10:45:31 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:45:31 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:45:31 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=46}
+2021-01-04 10:45:31 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[]
+2021-01-04 10:45:31 INFO  StepModel:134 - step变量更新：{userId=46}
+2021-01-04 10:45:31 INFO  ApiTestCaseModel:115 - testCase变量更新：{userId=46, getRandomInt=46}
+2021-01-04 10:45:31 INFO  StepModel:121 - 测试用例变量列表：{userId=46, getRandomInt=46}
+2021-01-04 10:45:31 INFO  StepModel:125 - 测试用例替换变量列表：[46]
+2021-01-04 10:45:31 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[46]
+2021-01-04 10:45:31 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'id' in [http://localhost:8888/v1/info/user/${id}] 
+2021-01-04 10:45:31 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:45:31 INFO  ApiParameterizedTest:32 - 用例名称： UserInfoCase
+2021-01-04 10:45:31 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户信息流程用例
+2021-01-04 10:45:31 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=90}
+2021-01-04 10:45:31 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=90}
+2021-01-04 10:45:31 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:45:31 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:45:31 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:45:31 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:45:31 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:45:31 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=90}
+2021-01-04 10:45:31 INFO  StepModel:125 - 测试用例替换变量列表：[90, xiaohong90]
+2021-01-04 10:45:31 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[90, xiaohong90]
+2021-01-04 10:45:31 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:45:31 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:45:31 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=90}
+2021-01-04 10:45:31 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[]
+2021-01-04 10:49:48 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_Info_api.yml
+2021-01-04 10:49:48 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_login_api.yml
+2021-01-04 10:49:48 INFO  ApiTestCaseModelTest:22 - debugger!
+2021-01-04 10:49:48 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_info_case.yml
+2021-01-04 10:49:48 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=40}
+2021-01-04 10:49:48 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=40}
+2021-01-04 10:49:48 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:49:48 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:49:50 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:49:50 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=40}
+2021-01-04 10:49:50 INFO  StepModel:125 - 测试用例替换变量列表：[40, xiaohong40]
+2021-01-04 10:49:50 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[40, xiaohong40]
+2021-01-04 10:49:50 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:49:50 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:49:50 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=40}
+2021-01-04 10:49:50 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[]
+2021-01-04 10:49:50 INFO  StepModel:134 - step变量更新：{userId=40}
+2021-01-04 10:49:50 INFO  ApiTestCaseModel:115 - testCase变量更新：{userId=40, getRandomInt=40}
+2021-01-04 10:49:50 INFO  StepModel:121 - 测试用例变量列表：{userId=40, getRandomInt=40}
+2021-01-04 10:49:50 INFO  StepModel:125 - 测试用例替换变量列表：[40]
+2021-01-04 10:49:50 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[40]
+2021-01-04 10:49:50 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'id' in [http://localhost:8888/v1/info/user/${id}] 
+2021-01-04 10:49:50 INFO  StepModel:121 - 测试用例变量列表：{userId=40, getRandomInt=40}
+2021-01-04 10:49:50 INFO  StepModel:125 - 测试用例替换变量列表：[40]
+2021-01-04 10:49:50 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[40]
+2021-01-04 10:49:50 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'id' in [http://localhost:8888/v1/info/user/${id}] 
+2021-01-04 10:51:06 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_Info_api.yml
+2021-01-04 10:51:06 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_login_api.yml
+2021-01-04 10:51:06 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_login_case.yaml
+2021-01-04 10:51:06 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/create_user_info_case.yml
+2021-01-04 10:51:06 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_info_case.yml
+2021-01-04 10:51:06 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:51:06 INFO  ApiParameterizedTest:32 - 用例名称： UserLogin
+2021-01-04 10:51:06 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户登录并获取token
+2021-01-04 10:51:06 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=98}
+2021-01-04 10:51:06 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=98}
+2021-01-04 10:51:06 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:51:06 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:51:08 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:51:08 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:51:08 INFO  ApiParameterizedTest:32 - 用例名称： CreateUserInfo
+2021-01-04 10:51:08 INFO  ApiParameterizedTest:33 - 用例描述： 测试创建用户信息用例
+2021-01-04 10:51:08 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=45}
+2021-01-04 10:51:08 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=45}
+2021-01-04 10:51:08 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:51:08 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:51:08 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:51:08 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:51:08 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:51:08 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=45}
+2021-01-04 10:51:08 INFO  StepModel:125 - 测试用例替换变量列表：[45, xiaohong45]
+2021-01-04 10:51:08 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[45, xiaohong45]
+2021-01-04 10:51:08 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:51:08 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:51:08 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=45}
+2021-01-04 10:51:08 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[]
+2021-01-04 10:51:08 INFO  StepModel:134 - step变量更新：{userId=45}
+2021-01-04 10:51:08 INFO  ApiTestCaseModel:115 - testCase变量更新：{userId=45, getRandomInt=45}
+2021-01-04 10:51:08 INFO  StepModel:121 - 测试用例变量列表：{userId=45, getRandomInt=45}
+2021-01-04 10:51:08 INFO  StepModel:125 - 测试用例替换变量列表：[45]
+2021-01-04 10:51:08 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[45]
+2021-01-04 10:51:08 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'id' in [http://localhost:8888/v1/info/user/${id}] 
+2021-01-04 10:51:08 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:51:08 INFO  ApiParameterizedTest:32 - 用例名称： UserInfoCase
+2021-01-04 10:51:08 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户信息流程用例
+2021-01-04 10:51:08 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=22}
+2021-01-04 10:51:08 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=22}
+2021-01-04 10:51:08 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:51:08 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:51:08 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:51:09 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:51:09 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:51:09 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=22}
+2021-01-04 10:51:09 INFO  StepModel:125 - 测试用例替换变量列表：[22, xiaohong22]
+2021-01-04 10:51:09 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[22, xiaohong22]
+2021-01-04 10:51:09 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:51:09 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:51:09 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=22}
+2021-01-04 10:51:09 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[]
+2021-01-04 10:52:42 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_Info_api.yml
+2021-01-04 10:52:42 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_login_api.yml
+2021-01-04 10:52:42 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_login_case.yaml
+2021-01-04 10:52:42 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/create_user_info_case.yml
+2021-01-04 10:52:42 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_info_case.yml
+2021-01-04 10:52:42 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:52:42 INFO  ApiParameterizedTest:32 - 用例名称： UserLogin
+2021-01-04 10:52:42 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户登录并获取token
+2021-01-04 10:52:42 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=76}
+2021-01-04 10:52:42 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=76}
+2021-01-04 10:52:42 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:52:42 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:52:44 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:52:49 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:52:49 INFO  ApiParameterizedTest:32 - 用例名称： CreateUserInfo
+2021-01-04 10:52:49 INFO  ApiParameterizedTest:33 - 用例描述： 测试创建用户信息用例
+2021-01-04 10:52:49 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=39}
+2021-01-04 10:52:49 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=39}
+2021-01-04 10:52:49 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:52:49 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:52:49 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:52:49 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:52:49 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:52:49 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=39}
+2021-01-04 10:52:49 INFO  StepModel:125 - 测试用例替换变量列表：[39, xiaohong39]
+2021-01-04 10:52:49 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[39, xiaohong39]
+2021-01-04 10:52:49 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:52:49 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:52:49 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=39}
+2021-01-04 10:52:49 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[]
+2021-01-04 10:52:49 INFO  StepModel:134 - step变量更新：{userId=39}
+2021-01-04 10:52:49 INFO  ApiTestCaseModel:115 - testCase变量更新：{userId=39, getRandomInt=39}
+2021-01-04 10:52:49 INFO  StepModel:121 - 测试用例变量列表：{userId=39, getRandomInt=39}
+2021-01-04 10:52:49 INFO  StepModel:125 - 测试用例替换变量列表：[39]
+2021-01-04 10:52:49 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[39]
+2021-01-04 10:52:49 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'id' in [http://localhost:8888/v1/info/user/${id}] 
+2021-01-04 10:52:54 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:52:54 INFO  ApiParameterizedTest:32 - 用例名称： UserInfoCase
+2021-01-04 10:52:54 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户信息流程用例
+2021-01-04 10:52:54 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=11}
+2021-01-04 10:52:54 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=11}
+2021-01-04 10:52:54 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:52:54 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:52:54 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:52:54 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:52:54 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:52:54 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=11}
+2021-01-04 10:52:54 INFO  StepModel:125 - 测试用例替换变量列表：[11, xiaohong11]
+2021-01-04 10:52:54 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[11, xiaohong11]
+2021-01-04 10:52:54 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:52:54 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:52:54 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=11}
+2021-01-04 10:52:54 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[]
+2021-01-04 10:55:22 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_Info_api.yml
+2021-01-04 10:55:22 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_login_api.yml
+2021-01-04 10:55:22 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_login_case.yaml
+2021-01-04 10:55:22 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_info_case.yml
+2021-01-04 10:55:22 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:55:22 INFO  ApiParameterizedTest:32 - 用例名称： UserLogin
+2021-01-04 10:55:22 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户登录并获取token
+2021-01-04 10:55:22 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=98}
+2021-01-04 10:55:22 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=98}
+2021-01-04 10:55:22 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:55:22 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:55:24 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:55:24 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 10:55:24 INFO  ApiParameterizedTest:32 - 用例名称： UserInfoCase
+2021-01-04 10:55:24 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户信息流程用例
+2021-01-04 10:55:24 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=91}
+2021-01-04 10:55:24 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=91}
+2021-01-04 10:55:24 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 10:55:24 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 10:55:24 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:55:24 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 10:55:24 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 10:55:24 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=91}
+2021-01-04 10:55:24 INFO  StepModel:125 - 测试用例替换变量列表：[91, xiaohong91]
+2021-01-04 10:55:24 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[91, xiaohong91]
+2021-01-04 10:55:24 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:55:24 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 10:55:24 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=91}
+2021-01-04 10:55:24 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[]
+2021-01-04 10:55:24 INFO  StepModel:134 - step变量更新：{userId=91}
+2021-01-04 10:55:24 INFO  ApiTestCaseModel:115 - testCase变量更新：{userId=91, getRandomInt=91}
+2021-01-04 10:55:24 INFO  StepModel:121 - 测试用例变量列表：{userId=91, getRandomInt=91}
+2021-01-04 10:55:24 INFO  StepModel:125 - 测试用例替换变量列表：[91]
+2021-01-04 10:55:24 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[91]
+2021-01-04 10:55:24 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'id' in [http://localhost:8888/v1/info/user/${id}] 
+2021-01-04 10:55:24 INFO  StepModel:121 - 测试用例变量列表：{userId=91, getRandomInt=91}
+2021-01-04 10:55:24 INFO  StepModel:125 - 测试用例替换变量列表：[91]
+2021-01-04 10:55:24 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[91]
+2021-01-04 10:55:24 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'id' in [http://localhost:8888/v1/info/user/${id}] 
+2021-01-04 11:10:02 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_Info_api.yml
+2021-01-04 11:10:02 INFO  ApiObjectModel:67 - api object加载路径：src/main/resources/api/user_login_api.yml
+2021-01-04 11:10:02 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_login_case.yaml
+2021-01-04 11:10:02 INFO  ApiTestCaseModel:97 - test case加载测试用例路径：src/main/resources/case/user_info_case.yml
+2021-01-04 11:10:02 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 11:10:02 INFO  ApiParameterizedTest:32 - 用例名称： UserLogin
+2021-01-04 11:10:02 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户登录并获取token
+2021-01-04 11:10:02 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=31}
+2021-01-04 11:10:02 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=31}
+2021-01-04 11:10:02 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 11:10:02 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 11:10:04 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 11:10:04 INFO  ApiParameterizedTest:31 - 【用例开始执行】
+2021-01-04 11:10:04 INFO  ApiParameterizedTest:32 - 用例名称： UserInfoCase
+2021-01-04 11:10:04 INFO  ApiParameterizedTest:33 - 用例描述： 测试用户信息流程用例
+2021-01-04 11:10:04 INFO  ApiTestCaseModel:108 - 用例变量更新：{getRandomInt=13}
+2021-01-04 11:10:04 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=13}
+2021-01-04 11:10:04 INFO  StepModel:125 - 测试用例替换变量列表：[xiaohong, 123123]
+2021-01-04 11:10:04 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[xiaohong, 123123]
+2021-01-04 11:10:04 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'username' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 11:10:04 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'password' in [{"username": "${username}", "password": ${password}}] 
+2021-01-04 11:10:04 INFO  StepModel:142 - 全局变量更新：{}
+2021-01-04 11:10:04 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=13}
+2021-01-04 11:10:04 INFO  StepModel:125 - 测试用例替换变量列表：[13, xiaohong13]
+2021-01-04 11:10:04 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[13, xiaohong13]
+2021-01-04 11:10:04 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userId' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 11:10:04 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'userName' in [{ "userId":${userId}, "userName":"${userName}", "email":"xiaohong@qq.com", "phone":"18623456543", "friends":[ { "userId":11, "userName":"小红喵", "email":"xiaohongmiao@qq.com", "phone":"18623456555" }, { "userId":12, "userName":"小红旺", "email":"xiaohongwang@qq.com", "phone":"18623456566" } ] }] 
+2021-01-04 11:10:04 INFO  StepModel:121 - 测试用例变量列表：{getRandomInt=13}
+2021-01-04 11:10:04 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[]
+2021-01-04 11:10:04 INFO  StepModel:134 - step变量更新：{userId=3}
+2021-01-04 11:10:04 INFO  ApiTestCaseModel:115 - testCase变量更新：{userId=3, getRandomInt=13}
+2021-01-04 11:10:04 INFO  StepModel:121 - 测试用例变量列表：{userId=3, getRandomInt=13}
+2021-01-04 11:10:04 INFO  StepModel:125 - 测试用例替换变量列表：[3]
+2021-01-04 11:10:04 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[3]
+2021-01-04 11:10:04 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'id' in [http://localhost:8888/v1/info/user/${id}] 
+2021-01-04 11:10:05 INFO  StepModel:121 - 测试用例变量列表：{userId=3, getRandomInt=13}
+2021-01-04 11:10:05 INFO  StepModel:125 - 测试用例替换变量列表：[3]
+2021-01-04 11:10:05 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[3]
+2021-01-04 11:10:05 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'id' in [{ "userId":${id}, "userName":"小红红", "email":"xiaohong红@qq.com", "phone":"18623456543" }] 
+2021-01-04 11:10:05 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'id' in [http://localhost:8888/v1/info/user/${id}] 
+2021-01-04 11:10:05 INFO  StepModel:121 - 测试用例变量列表：{userId=3, getRandomInt=13}
+2021-01-04 11:10:05 INFO  StepModel:125 - 测试用例替换变量列表：[3]
+2021-01-04 11:10:05 INFO  ApiActionModel:141 - 测试用例执行传入的实参列表：[3]
+2021-01-04 11:10:05 ERROR PlaceholderUtils:61 - Could not resolve placeholder 'id' in [http://localhost:8888/v1/info/user/${id}] 
