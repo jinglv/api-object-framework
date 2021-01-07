@@ -31,6 +31,7 @@ public class ApiLoader {
      * @param dir 接口存放目录
      */
     public static void load(String dir) {
+        logger.info("接口对象yml文件存放的目录：{}", dir);
         Arrays.stream(Objects.requireNonNull(new File(dir).list())).forEach(path -> {
             try {
                 APIS.add(ApiObjectModel.load(dir + "/" + path));
@@ -48,6 +49,7 @@ public class ApiLoader {
      * @return ApiActionModel
      */
     public static ApiActionModel getAction(String apiName, String actionName) {
+        logger.info("接口对象的名称：{}，接口测试用例执行的名称：{}", apiName, actionName);
         return APIS.stream()
                 .filter(api -> api.getName().equals(apiName))
                 .map(api -> api.getActions().get(actionName))

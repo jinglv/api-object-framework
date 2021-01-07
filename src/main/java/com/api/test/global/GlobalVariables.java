@@ -10,7 +10,9 @@ import java.util.Map;
  * @date 2020/12/30
  */
 public class GlobalVariables {
-
+    /**
+     * 存放全局变量Map
+     */
     static private Map<String, String> globalVariables = new HashMap<>();
 
     public static Map<String, String> getGlobalVariables() {
