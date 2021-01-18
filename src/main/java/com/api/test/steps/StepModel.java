@@ -4,14 +4,14 @@ import com.api.test.global.ApiLoader;
 import com.api.test.global.GlobalVariables;
 import com.api.test.utils.PlaceholderUtils;
 import io.restassured.response.Response;
+import org.hamcrest.Matcher;
 import org.junit.jupiter.api.function.Executable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.*;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
@@ -143,15 +143,52 @@ public class StepModel {
             });
         }
         // 根据case中的配置对返回结果进行软断言，但不会终结测试将断言结果存入断言结果列表中，在用例最后进行统一结果输出
+//        if (asserts != null) {
+//            asserts.forEach(assertModel ->
+//                    assertList.add(() ->
+//                            assertThat(assertModel.getReason(), response.path(assertModel.getActual()).toString(), equalTo(assertModel.getExpect()))));
+//        }
         if (asserts != null) {
-            asserts.forEach(assertModel ->
-                    assertList.add(() ->
-                            assertThat(assertModel.getReason(), response.path(assertModel.getActual()).toString(), equalTo(assertModel.getExpect()))));
+            asserts.forEach(assertModel -> {
+//                获取断言方法，如果没有断言方法默认使用equalTo
+                Matcher matcher = null;
+                if (assertModel.getMatcher() != null) {
+                    logger.info("获取断言方法" + assertModel.getMatcher() + "返回Matcher类型");
+                    try {
+                        matcher = matcherMethod(assertModel.getMatcher(), assertModel.getExpect());
+                    } catch (InvocationTargetException | IllegalAccessException e) {
+                        e.printStackTrace();
+                    }
+                } else {
+                    matcher = equalTo(assertModel.getExpect());
+                }
+                Matcher finalMatcher = matcher;
+                assertList.add(() -> {
+                    assertThat(assertModel.getReason(), response.path(assertModel.getActual()).toString(), finalMatcher);
+                });
+            });
         }
         // 将response和断言结果存储到stepResult对象中并返回
         stepResult.setAssertList(assertList);
         stepResult.setStepVariables(stepVariables);
         stepResult.setResponse(response);
         return stepResult;
+    }
+
+    /**
+     * 反射找Matchers静态方法
+     *
+     * @param methodValue
+     * @param expectValue
+     * @return
+     * @throws InvocationTargetException
+     * @throws IllegalAccessException
+     */
+    static Matcher matcherMethod(String methodValue, String expectValue) throws InvocationTargetException, IllegalAccessException {
+        Method method = Arrays.stream(org.hamcrest.Matchers.class.getDeclaredMethods())
+                .filter(m -> m.getName().equals(methodValue))
+                .findFirst()
+                .get();
+        return (Matcher) method.invoke(null, expectValue);
     }
 }

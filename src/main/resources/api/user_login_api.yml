@@ -4,7 +4,7 @@ actions:
   # ApiObjectMethodModel
   get_token:
     method: get
-    url: http://localhost:8888/v1/user/login
+    url: http://localhost:8886/v1/user/login
     contentType: application/json
     formalParam: ["username","password"]
     body: '{"username": "${username}", "password": ${password}}'

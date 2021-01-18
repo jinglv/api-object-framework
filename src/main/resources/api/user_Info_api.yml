@@ -2,7 +2,7 @@ name: UserInfo
 actions:
   add_user_info:
     method: post
-    url: http://localhost:8888/v1/info/user
+    url: http://localhost:8886/v1/info/user
     contentType: application/json
     formalParam: ["userId", "userName"]
     headers:
@@ -29,20 +29,20 @@ actions:
            }'
   find_all_user_info:
     method: get
-    url: http://localhost:8888/v1/info/user
+    url: http://localhost:8886/v1/info/user
     contentType: application/json
     headers:
       token: ${token}
   find_user_info_by_userId:
     method: get
-    url: http://localhost:8888/v1/info/user/${id}
+    url: http://localhost:8886/v1/info/user/${id}
     contentType: application/json
     formalParam: ["id"]
     headers:
       token: ${token}
   update_user_info_by_userId:
     method: put
-    url: http://localhost:8888/v1/info/user/${id}
+    url: http://localhost:8886/v1/info/user/${id}
     contentType: application/json
     formalParam: ["id"]
     headers:
@@ -55,7 +55,7 @@ actions:
            }'
   delete_user_info_by_userId:
     method: delete
-    url: http://localhost:8888/v1/info/user/${id}
+    url: http://localhost:8886/v1/info/user/${id}
     contentType: application/json
     formalParam: ["id"]
     headers:
