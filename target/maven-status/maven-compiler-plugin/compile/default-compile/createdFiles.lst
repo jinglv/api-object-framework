@@ -1,2 +1,12 @@
+com/api/test/steps/StepResult.class
+com/api/test/steps/BaseResult.class
+com/api/test/utils/FakerUtils.class
+com/api/test/global/GlobalVariables.class
+com/api/test/utils/PlaceholderUtils.class
+com/api/test/utils/HarUtils.class
+com/api/test/steps/StepModel.class
+com/api/test/global/ApiLoader.class
 com/api/test/api/ApiActionModel.class
+com/api/test/cases/ApiTestCaseModel.class
+com/api/test/steps/AssertModel.class
 com/api/test/api/ApiObjectModel.class

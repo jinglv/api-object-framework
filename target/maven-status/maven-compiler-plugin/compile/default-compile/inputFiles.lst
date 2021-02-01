@@ -1,2 +1,12 @@
+/Users/apple/JavaProject/api-object-framework/src/main/java/com/api/test/steps/StepModel.java
+/Users/apple/JavaProject/api-object-framework/src/main/java/com/api/test/steps/BaseResult.java
 /Users/apple/JavaProject/api-object-framework/src/main/java/com/api/test/api/ApiObjectModel.java
+/Users/apple/JavaProject/api-object-framework/src/main/java/com/api/test/cases/ApiTestCaseModel.java
+/Users/apple/JavaProject/api-object-framework/src/main/java/com/api/test/global/ApiLoader.java
+/Users/apple/JavaProject/api-object-framework/src/main/java/com/api/test/steps/AssertModel.java
+/Users/apple/JavaProject/api-object-framework/src/main/java/com/api/test/global/GlobalVariables.java
+/Users/apple/JavaProject/api-object-framework/src/main/java/com/api/test/steps/StepResult.java
+/Users/apple/JavaProject/api-object-framework/src/main/java/com/api/test/utils/HarUtils.java
 /Users/apple/JavaProject/api-object-framework/src/main/java/com/api/test/api/ApiActionModel.java
+/Users/apple/JavaProject/api-object-framework/src/main/java/com/api/test/utils/PlaceholderUtils.java
+/Users/apple/JavaProject/api-object-framework/src/main/java/com/api/test/utils/FakerUtils.java
